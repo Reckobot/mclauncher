@@ -1,7 +1,7 @@
 # Fork Description
 This is a fork that tries to remove OLauncher branding and replace it
 with Minecraft branding.
-## Everything beyond this point is the original readme
+# Everything beyond this point is the original readme
 #
 
 # Project Status
