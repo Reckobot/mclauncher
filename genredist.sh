@@ -7,7 +7,7 @@ workdir=$basedir/work
 OLAUNCHER_VERSION=1.7.3_03
 AUTOOL_VERSION=0.1.0
 
-finalname="olauncher-$OLAUNCHER_VERSION-redist.jar"
+finalname="mclauncher-$OLAUNCHER_VERSION-redist.jar"
 
 if [ ! -e "$autooldir" ]; then
   echo "The AutoOL directory could not be found. Please run 'git submodule update --init'"
