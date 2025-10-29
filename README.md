@@ -2,7 +2,7 @@
 This is a fork that tries to remove OLauncher branding and replace it
 with Minecraft branding.
 ## Everything beyond this point is the original readme
-
+#
 
 # Project Status
 This project is on indefinite hiatus. Check the forks tab to see if anyone is maintaining a fork of this project. I have relicensed olauncher as CC0 with the consent of the contributors, so you are free to distribute any forks with whatever license you see fit.
