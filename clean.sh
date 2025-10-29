@@ -2,4 +2,4 @@
 
 rm -rf work
 rm -rf launcher olauncher
-rm mclauncher-*-redist.jar
+rm olauncher-*-redist.jar
