@@ -927,7 +927,7 @@ index f8b2ac1..f37edf7 100644
      }
  
      private void initInterface() {
-+        setTitle("OLauncher Login");
++        setTitle("Minecraft Launcher Login");
 +        setResizable(false);
          setModal(true);
          setModalityType(ModalityType.APPLICATION_MODAL);
