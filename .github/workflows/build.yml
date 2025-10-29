@@ -46,7 +46,7 @@ jobs:
       id: upload-artifact
       with:
         name: OLauncher Redistributable JAR
-        path: olauncher-*-redist.jar
+        path: mclauncher-*-redist.jar
 
   draft-release:
     if: ${{ github.ref_type == 'tag' }}
