@@ -420,13 +420,13 @@ index df55cae..9c4c3f0 100644
          } else if (this == SNAPSHOT) {
 -            return "Are you sure you want to enable development builds?\nThey are not guaranteed to be stable and may corrupt your world.\nYou are advised to run this in a separate directory or run regular backups.";
 +            return POPUP_DEV_VERSIONS; // olauncher - proper use of variables
-         } else if (this == OLD_BETA) {
+         }/* else if (this == OLD_BETA) {
 -            return "These versions are very out of date and may be unstable. Any bugs, crashes, missing features or\nother nasties you may find will never be fixed in these versions.\nIt is strongly recommended you play these in separate directories to avoid corruption.\nWe are not responsible for the damage to your nostalgia or your save files!";
 +            return POPUP_OLD_VERSIONS; // olauncher - proper use of variables
          } else {
 -            return this == OLD_ALPHA ? "These versions are very out of date and may be unstable. Any bugs, crashes, missing features or\nother nasties you may find will never be fixed in these versions.\nIt is strongly recommended you play these in separate directories to avoid corruption.\nWe are not responsible for the damage to your nostalgia or your save files!" : null;
 +            return this == OLD_ALPHA ? POPUP_OLD_VERSIONS : null; // olauncher - proper use of variables
-         }
+         }\*
      }
  
 diff --git a/src/main/java/net/minecraft/launcher/profile/Profile.java b/src/main/java/net/minecraft/launcher/profile/Profile.java
