@@ -1,9 +1,6 @@
 # Fork Description
 This is a fork that tries to remove OLauncher branding and replace it
 with Minecraft branding.
-#
-**Everything beyond this point is the original readme**
-#
 
 # Project Status
 This project is on indefinite hiatus. Check the forks tab to see if anyone is maintaining a fork of this project. I have relicensed olauncher as CC0 with the consent of the contributors, so you are free to distribute any forks with whatever license you see fit.
@@ -27,7 +24,7 @@ The old launcher we all know and love with the quality-of-life features of the n
 ## Planned Features
 - Add skin/cape management
 
-## How to build from source
+## How to build from source (Linux)
 The commands must be run in the following order to build from source:
 - `decompile.sh`
   - Downloads original jar and decompiles it
@@ -40,3 +37,11 @@ The commands must be run in the following order to build from source:
 - `genredist.sh` (optional)
   - Make sure you've run `git submodule update --init` as this script uses the `AutoOL` submodule.
   - Generates the redistributable JAR - Do not distribute the JARs in `olauncher/target`!
+
+## How to build from source (Windows)
+You need to have Maven.
+In order to install Maven I recommend you use Scoop which is found ![here](https://scoop.sh/).
+After that you can just run "scoop install main/maven" in console without the quotes.
+
+Once you've done that, you can run setup.sh to build everything.
+To build a restributable version, run genredist.sh.
